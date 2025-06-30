@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Faulty Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧮 Faulty Calculator</h1>
+    <button onclick="startCalculator()">Start</button>
+
+    <div id="result" class="fade-in"></div>
+
+    <div class="history">
+      <h2>📜 History</h2>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+
+  <!-- Sound effects -->
+  <audio id="correctSound" src="correct.mp3"></audio>
+  <audio id="wrongSound" src="wrong.mp3"></audio>
+
+  <script src="index.js"></script>
+</body>
+</html>
